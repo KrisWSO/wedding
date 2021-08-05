@@ -1,0 +1,16 @@
+.nav-link:hover {
+    background-color: lightgray;
+    /*border-left: 1px solid darkgrey;*/
+    /*border-right: 1px solid darkgrey;*/
+}
+
+.btn-primary {
+    background-color: #4E79A7;
+    border-color: #4E79A7;
+}
+
+.btn-primary:hover {
+    background-color: #4E79A7;
+    border-color: #4E79A7;
+    filter: brightness(80%);
+}
