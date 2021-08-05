@@ -42,13 +42,13 @@
 				height: 600px;
 				"
 		>
-		<!--
-		<div class = "py-5">
-			<div style = "background-color: white; opacity: 100%; padding: 5px 15px 5px 15px; border-radius: 10px">
+
+
+			<div style = "background-color: white; opacity: 100%; padding: 5px 15px 5px 15px; border-radius: 10px; position:relative;right:300px;bottom:250px">
 				<h1 class="display-3" style = "opacity: 100%; color:black">Jocelyn & Kris</h1>
 			</div>
-		</div>
-		-->
+
+
 
 
 		</div>
@@ -84,17 +84,18 @@
 					<p class="lead">We'll be celebrating starting on Saturday September 3rd, <strong>2022</strong> <br>with the ceremony on Sunday the 4th.</p>
 					<img src="images/timeline.svg" style = "width:650px; margin:auto;display:block">
 					<img src = "images/photos/Kati-Christoffel_Misty-View-from-Hunger-Mountain.png" style = "width:650px; margin:auto; display:block">
+					<a name = "accomodations"></a>
+
 				</div>
 			</div>
 
-			<a name = "accomodations"></a>
 			<div class = "container border-bottom">
 				<div class="row text-center py-3">
 					<h1 class="display-5">Accomodations</h1>
 					<p class="lead">We've highlighted a few places to stay, click a point on the map to read more details below!</p>
 				</div>
 				<div class = "row justify-content-center text-center">
-					<div class = "col-6" id="mapid" style = "height: 400px;">
+					<div class = "col-6" id="mapid" style = "height: 400px; margin-bottom: 15px;">
 						<!-- Interactive Map populated by script/map.js-->
 					</div>
 				</div>
@@ -153,11 +154,97 @@
 							<strong>Website:</strong> <a href = "https://swansoninn.com/">https://swansoninn.com/</a><br>
 					</div>
 				</div>
-				<div id = "hydeaway"></div>
-				<div id = "tuckerhill"></div>
-				<div id = "featherbed"></div>
-				<div id = "warren"></div>
-				<div id = "madlodge"></div>
+
+				<div id = "hydeaway" class="row px-5 py-2" style = "display:none">
+					<div class="row">
+						<h3 class="align-self-start" style = "font-weight:200;">Hyde Away Inn</h3>
+					</div>
+					<div class="col-md-3 py-3">
+						<img src="./images/photos/hyde-away-2607.jpeg" width = 100%>
+					</div>
+					<div class="col-md-5 py-3">
+						<p>Rooms are around $200 a night, with breakfast included. The inn is located right down the road in Mad River Valley, close to the venue. Hyde Away Inn also offers full dining and a tavern on site.</p>
+					</div>
+						<div class="col-md-3 py-3">
+							<strong>Address: </strong>1428 Mill Brook Rd, Waitsfield, VT 05673<br>
+							<strong>Phone: </strong>(802) 496-2322<br>
+							<strong>Distance from Venue: </strong>1.4 miles<br>
+							<strong>Website:</strong> <a href = "https://www.hydeawayinn.com/">https://www.hydeawayinn.com/</a><br>
+					</div>
+				</div>
+
+				<div id = "tuckerhill" class="row px-5 py-2" style = "display:none">
+					<div class="row">
+						<h3 class="align-self-start" style = "font-weight:200;">Tucker Hill Inn</h3>
+					</div>
+					<div class="col-md-3 py-3">
+						<img src="./images/photos/tucker hill 3.jpeg" width = 100%>
+					</div>
+					<div class="col-md-5 py-3">
+						<p>Rooms are around $175 a night. Tucker Hill Inn is also right down the road! It’s set on 14 acres, separated from other lodging while still minutes away from the venue and town.</p>
+					</div>
+						<div class="col-md-3 py-3">
+							<strong>Address: </strong>65 Marble Hill Rd, Waitsfield, VT 05673<br>
+							<strong>Phone: </strong>(802) 496-3983<br>
+							<strong>Distance from Venue: </strong>1.8 miles<br>
+							<strong>Website:</strong> <a href = "https://www.tuckerhill.com/">https://www.tuckerhill.com/</a><br>
+					</div>
+				</div>
+
+				<div id = "featherbed" class="row px-5 py-2" style = "display:none">
+					<div class="row">
+						<h3 class="align-self-start" style = "font-weight:200;">The Featherbed Inn</h3>
+					</div>
+					<div class="col-md-3 py-3">
+						<img src="./images/photos/featherbed.png" width = 100%>
+					</div>
+					<div class="col-md-5 py-3">
+						<p>Featherbed Inn is on the edge of Waitsfield, on 20 acres of land. It has a pond! The inn has both rooms for rent or whole suites/cottages and prices vary accordingly (avg around $150 for a room)</p>
+					</div>
+						<div class="col-md-3 py-3">
+							<strong>Address: </strong>5864 Main St, Waitsfield, VT 05673<br>
+							<strong>Phone: </strong>(802) 496-7151<br>
+							<strong>Distance from Venue: </strong>3.5 miles<br>
+							<strong>Website:</strong> <a href = "https://www.featherbedinn.com/">https://www.featherbedinn.com/</a><br>
+					</div>
+				</div>
+
+				<div id = "warren" class="row px-5 py-2" style = "display:none">
+					<div class="row">
+						<h3 class="align-self-start" style = "font-weight:200;">The Warren Lodge</h3>
+					</div>
+					<div class="col-md-3 py-3">
+						<img src="./images/photos/warren lodge.jpeg" width = 100%>
+					</div>
+					<div class="col-md-5 py-3">
+						<p>The Warren Lodge is a little further afield in the next town over (Warren). They offer a variety of rooms, including suites and a family house. Prices vary accordingly (from around $140 for a standard single to $300 for the guest house). It’s the sister property to Mad River Lodge! Note - they have a 3 night minimum over labor day weekend.</p>
+					</div>
+						<div class="col-md-3 py-3">
+							<strong>Address: </strong>731 Vt. Rt 100, Warren, VT 05674<br>
+							<strong>Phone: </strong>(802) 496-3084<br>
+							<strong>Distance from Venue: </strong>6.3 miles<br>
+							<strong>Website:</strong> <a href = "https://www.thewarrenlodge.com/">https://www.thewarrenlodge.com/</a><br>
+					</div>
+				</div>
+
+				
+				<div id = "madlodge" class="row px-5 py-2" style = "display:none">
+					<div class="row">
+						<h3 class="align-self-start" style = "font-weight:200;">Mad River Lodge</h3>
+					</div>
+					<div class="col-md-3 py-3">
+						<img src="./images/photos/Mad River Lodge-Outdoor from Road 3.jpeg" width = 100%>
+					</div>
+					<div class="col-md-5 py-3">
+						<p>Mad River Lodge is the closest lodging near our venue, only a half mile down the road. Rooms are around $140/night. It’s the sister property to the Warren Lodge! Note - they have a 3 night minimum over labor day weekend.</p>
+					</div>
+						<div class="col-md-3 py-3">
+							<strong>Address: </strong>2354 Mill Brook Rd Waitsfield, VT 05673<br>
+							<strong>Phone: </strong>(802) 496-6969<br>
+							<strong>Distance from Venue: </strong>0.5 miles<br>
+							<strong>Website:</strong> <a href = "https://www.madriverlodge.com/">https://www.madriverlodge.com/</a><br>
+					</div>
+				</div>
 
 			</div>
 
