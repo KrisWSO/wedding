@@ -22,7 +22,24 @@ var imageList = [
     {
         "thumb": "IMG_7844_Thumb.jpg",
         "full": "IMG_7844.jpg"
+    },
+    {
+        "thumb": "MVIMG_20180219_100450_Thumb.jpg",
+        "full": "MVIMG_20180219_100450.jpg"
+    },
+    {
+        "thumb": "MVIMG_20180218_144319_Thumb.jpg",
+        "full": "MVIMG_20180218_144319.jpg"
+    },
+    {
+        "thumb": "IMG_20180216_173459_Thumb.jpg",
+        "full": "IMG_20180216_173459.jpg"
+    },
+    {
+        "thumb": "IMG_0998_Thumb.jpg",
+        "full": "IMG_0998.jpg"
     }
+    
 ]
 
 document.onload = buildGallery();
