@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="38.6605mm"
+   height="20.871981mm"
+   viewBox="0 0 38.6605 20.871981"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="legend.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clip0">
+      <rect
+         id="rect10"
+         height="100"
+         width="174"
+         y="141"
+         x="109" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="537.52667"
+     inkscape:cy="-92.157532"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1827"
+     inkscape:window-height="1057"
+     inkscape:window-x="85"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-57.146366,-95.406287)">
+    <g
+       id="g29"
+       transform="matrix(0.26458333,0,0,0.26458333,24.874607,55.424103)"
+       clip-path="url(#clip0)">
+      <path
+         id="path15"
+         d="m 122,187 c 0,-2.761 2.239,-5 5,-5 2.761,0 5,2.239 5,5 0,2.761 -2.239,5 -5,5 -2.761,0 -5,-2.239 -5,-5 z"
+         inkscape:connector-curvature="0"
+         style="fill:#6d152b;fill-rule:evenodd" />
+      <path
+         id="path17"
+         d="m 122,206 c 0,-2.761 2.239,-5 5,-5 2.761,0 5,2.239 5,5 0,2.761 -2.239,5 -5,5 -2.761,0 -5,-2.239 -5,-5 z"
+         inkscape:connector-curvature="0"
+         style="fill:#0090c9;fill-rule:evenodd" />
+      <text
+         id="text25"
+         transform="translate(141.696,191)"
+         font-size="13"
+         font-weight="400"
+         style="font-weight:400;font-size:13px;font-family:Calibri, Calibri_MSFontService, sans-serif">Wedding Venue<tspan
+   id="tspan19"
+   y="-27"
+   x="-21.3197"
+   font-size="19"
+   style="font-size:19px">Legend</tspan>
+<tspan
+   id="tspan21"
+   y="19"
+   x="-0.000106812"
+   font-size="13"
+   style="font-size:13px">With Reserved Block</tspan>
+<tspan
+   id="tspan23"
+   y="38"
+   x="-0.000106812"
+   font-size="13"
+   style="font-size:13px">Without Reserved Block</tspan>
+</text>
+      <path
+         id="path27"
+         d="m 122,225 c 0,-2.761 2.239,-5 5,-5 2.761,0 5,2.239 5,5 0,2.761 -2.239,5 -5,5 -2.761,0 -5,-2.239 -5,-5 z"
+         inkscape:connector-curvature="0"
+         style="fill:#002060;fill-rule:evenodd" />
+    </g>
+  </g>
+</svg>

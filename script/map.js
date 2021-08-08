@@ -14,10 +14,10 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 var circle = L.circle([44.195548085446084, -72.89158490178752], {
+    radius: 200,
     color: "#6D152B",
     fillColor: "#6D152B",
-    fillOpacity: 1,
-    radius: 100
+    fillOpacity: 1
 }).addTo(mymap);
 
 circle.bindPopup("Wedding Venue<br>(Mad River Barn)").openPopup();
@@ -27,6 +27,7 @@ locations = [{
     "properties": {
         "locationID": "whitehorse",
         "name": "The White Horse Inn",
+        "color": "#0090c9"
     },
     "geometry": {
         "type": "Point",
@@ -37,6 +38,7 @@ locations = [{
     "properties": {
         "locationID": "westhill",
         "name": "West Hill House",
+        "color": "#002060"
     },
     "geometry": {
         "type": "Point",
@@ -47,6 +49,7 @@ locations = [{
     "properties": {
         "locationID": "swanson",
         "name": "The Swanson Inn",
+        "color": "#002060"
     },
     "geometry": {
         "type": "Point",
@@ -57,6 +60,7 @@ locations = [{
     "properties": {
         "locationID": "hydeaway",
         "name": "The Hyde Away Inn",
+        "color": "#002060"
     },
     "geometry": {
         "type": "Point",
@@ -67,6 +71,7 @@ locations = [{
     "properties": {
         "locationID": "tuckerhill",
         "name": "The Tucker Hill Inn",
+        "color": "#002060"
     },
     "geometry": {
         "type": "Point",
@@ -77,6 +82,7 @@ locations = [{
     "properties": {
         "locationID": "featherbed",
         "name": "The Featherbed Inn",
+        "color": "#002060"
     },
     "geometry": {
         "type": "Point",
@@ -87,6 +93,7 @@ locations = [{
     "properties": {
         "locationID": "warren",
         "name": "The Warren Lodge",
+        "color": "#002060"
     },
     "geometry": {
         "type": "Point",
@@ -97,6 +104,7 @@ locations = [{
     "properties": {
         "locationID": "madlodge",
         "name": "The Mad River Lodge",
+        "color": "#002060"
     },
     "geometry": {
         "type": "Point",
@@ -105,44 +113,33 @@ locations = [{
 }
 ];
 
-var basicCircleStyle = {
-    radius: 6,
-    fillColor: "#0090c9",
-    color: "#0090c9",
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 1
-};
-
-
-var clickedCircleStyle = {
-	radius: 7,
-    fillColor: "#e55934",
-    color: "#e55934",
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 1
-};
-
 var allCircles = L.featureGroup() // initialize a variable to store all the circles after they are added to the map. Allows access to group to reset stytle.
 
-
-L.geoJSON(locations, {
+var circleLayer = new L.geoJSON(locations, {
     pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, basicCircleStyle).on("click", circleClick);
-    },
-    onEachFeature: function (feature, layer) {
-        layer.bindPopup('<p>'+feature.properties.name+'</p>')
+        return L.circleMarker(latlng, {
+            radius:6, 
+            opacity:1, 
+            fillOpacity:1,
+            fillColor: feature.properties.color, 
+            color: feature.properties.color
+        }).on("click", circleClick).bindPopup('<p>'+feature.properties.name+'</p>');
     }
-}).addTo(mymap).addTo(allCircles)
+})
+
+circleLayer.addTo(mymap).addTo(allCircles)
 
 var selectedLocationID
 var selectedLocationName
+
 function circleClick(e) {
 	window.selectedLocationID = e.target.feature.properties.locationID;
 	window.selectedLocationName = e.target.feature.properties.name;
-	allCircles.setStyle(basicCircleStyle);
-	e.target.setStyle(clickedCircleStyle);
+    circleLayer.resetStyle();
+	e.target.setStyle({
+        fillColor: "#e55934",
+        color: "#e55934"
+    });
 	console.log(selectedLocationID);
 	accomodationDetails()
 }
@@ -153,7 +150,7 @@ mymap.on('click', clearSelection)
 function clearSelection() {
 	window.selectedLocationID = null;
 	window.selectedLocationID = null;
-	allCircles.setStyle(basicCircleStyle);
+    circleLayer.resetStyle();
 	console.log(selectedLocationID);
 	accomodationDetails()
 }

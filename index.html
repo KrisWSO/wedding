@@ -94,9 +94,16 @@
 					<h1 class="display-5">Accomodations</h1>
 					<p class="lead">We've highlighted a few places to stay, click a point on the map to read more details below!</p>
 				</div>
-				<div class = "row justify-content-center text-center" style="background-image: url('images/photos/house.jpg');background-repeat: no-repeat;background-position: right bottom;">
-					<div class = "col-6" id="mapid" style = "height: 300px; margin-bottom: 15px;">
+				<div class = "row justify-content-center text-center">
+					<div class = "col-md-3">						
+						<img src = "images/photos/house.jpg">
+					</div>
+					<div class = "col-md-6">
 						<!-- Interactive Map populated by script/map.js-->
+						<div id="mapid" style = "height: 300px; margin-bottom: 15px;"></div>
+						<img src = "images/legend_horizontal.svg" style = "margin-bottom:15px; align-self: left;">
+					</div>
+					<div class = "col-md-3">
 					</div>
 				</div>
 
@@ -114,7 +121,7 @@
 							<strong>Address:</strong> 999 German Flats Road, Waitsfield, Vermont 05673<br>
 							<strong>Phone:</strong> (802) 496-9448<br>
 							<strong>Distance from Venue:</strong> 2.3 miles<br>
-							<strong>Website:</strong> <a href = "http://www.whitehorseinn-vermont.com/">www.whitehorseinn-vermont.com</a><br>
+							<strong>Website:</strong> <a target = "_blank" href = "http://www.whitehorseinn-vermont.com/">www.whitehorseinn-vermont.com</a><br>
 
 					</div>
 				</div>
@@ -133,7 +140,7 @@
 							<strong>Address:</strong> 1496 West Hill Rd, Warren, VT, 05674<br>
 							<strong>Phone:</strong> (802) 327-7844<br>
 							<strong>Distance from Venue:</strong> 6.8 miles<br>
-							<strong>Website:</strong> <a href = "www.westhillbb.com/">www.westhillbb.com</a><br>
+							<strong>Website:</strong> <a target = "_blank" href = "http://www.westhillbb.com/">www.westhillbb.com</a><br>
 					</div>
 				</div>
 
@@ -151,7 +158,7 @@
 							<strong>Address:</strong> Brook Road, Waitsfield, VT 05673<br>
 							<strong>Phone:</strong> (802) 496-2405<br>
 							<strong>Distance from Venue:</strong> 2.3 miles<br>
-							<strong>Website:</strong> <a href = "https://swansoninn.com/">https://swansoninn.com/</a><br>
+							<strong>Website:</strong> <a target = "_blank" href = "https://swansoninn.com/">https://swansoninn.com/</a><br>
 					</div>
 				</div>
 
@@ -169,7 +176,7 @@
 							<strong>Address: </strong>1428 Mill Brook Rd, Waitsfield, VT 05673<br>
 							<strong>Phone: </strong>(802) 496-2322<br>
 							<strong>Distance from Venue: </strong>1.4 miles<br>
-							<strong>Website:</strong> <a href = "https://www.hydeawayinn.com/">https://www.hydeawayinn.com/</a><br>
+							<strong>Website:</strong> <a target = "_blank" href = "https://www.hydeawayinn.com/">https://www.hydeawayinn.com/</a><br>
 					</div>
 				</div>
 
@@ -187,7 +194,7 @@
 							<strong>Address: </strong>65 Marble Hill Rd, Waitsfield, VT 05673<br>
 							<strong>Phone: </strong>(802) 496-3983<br>
 							<strong>Distance from Venue: </strong>1.8 miles<br>
-							<strong>Website:</strong> <a href = "https://www.tuckerhill.com/">https://www.tuckerhill.com/</a><br>
+							<strong>Website:</strong> <a target = "_blank" href = "https://www.tuckerhill.com/">https://www.tuckerhill.com/</a><br>
 					</div>
 				</div>
 
@@ -205,7 +212,7 @@
 							<strong>Address: </strong>5864 Main St, Waitsfield, VT 05673<br>
 							<strong>Phone: </strong>(802) 496-7151<br>
 							<strong>Distance from Venue: </strong>3.5 miles<br>
-							<strong>Website:</strong> <a href = "https://www.featherbedinn.com/">https://www.featherbedinn.com/</a><br>
+							<strong>Website:</strong> <a target = "_blank" href = "https://www.featherbedinn.com/">https://www.featherbedinn.com/</a><br>
 					</div>
 				</div>
 
@@ -223,7 +230,7 @@
 							<strong>Address: </strong>731 Vt. Rt 100, Warren, VT 05674<br>
 							<strong>Phone: </strong>(802) 496-3084<br>
 							<strong>Distance from Venue: </strong>6.3 miles<br>
-							<strong>Website:</strong> <a href = "https://www.thewarrenlodge.com/">https://www.thewarrenlodge.com/</a><br>
+							<strong>Website:</strong> <a target = "_blank" href = "https://www.thewarrenlodge.com/">https://www.thewarrenlodge.com/</a><br>
 					</div>
 				</div>
 
@@ -242,20 +249,42 @@
 							<strong>Address: </strong>2354 Mill Brook Rd Waitsfield, VT 05673<br>
 							<strong>Phone: </strong>(802) 496-6969<br>
 							<strong>Distance from Venue: </strong>0.5 miles<br>
-							<strong>Website:</strong> <a href = "https://www.madriverlodge.com/">https://www.madriverlodge.com/</a><br>
+							<strong>Website:</strong> <a target = "_blank" href = "https://www.madriverlodge.com/">https://www.madriverlodge.com/</a><br>
 					</div>
 				</div>
 
 			</div>
 
 			<a name = "travel"></a>
-			<div class = "container border-bottom" style="background-image: url('images/photos/backpack.png');background-repeat: no-repeat; background-position: left bottom;">
+			<div class = "container border-bottom">
 				<div class="row text-center justify-content-center py-5">
 					<h1 class="display-5">Travel</h1>
 					<div class="row justify-content-center">
-						<div class="col-6">
-							<p class = "lead py-3">For most guests, flying into Burlington, VT on the 3rd and back on the 5th will work well. The map below shows driving directions for two alternate routes from Burlington aiport to our venue, the Mad River Barn.</p>
-							<iframe class="col-12" width="600px" height="450" style="border:0;" allowfullscreen="" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d182712.91546617562!2d-73.09548260562961!3d44.312226132071714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x4cca798ea89a943b%3A0xfe2b2367b561d512!2sBurlington%20International%20Airport%20(BTV)%2C%20Airport%20Drive%2C%20South%20Burlington%2C%20VT!3m2!1d44.4706939!2d-73.1516037!4m5!1s0x4cb573cc21116945%3A0xbc58d88aa902d1d9!2sMad%20River%20Barn%2C%20Mill%20Brook%20Road%2C%20Waitsfield%2C%20VT!3m2!1d44.1955868!2d-72.8913342!5e0!3m2!1sen!2sus!4v1628196155549!5m2!1sen!2sus"></iframe>						
+						<div class = "col-md-3">
+						</div>
+						<div class="col-md-6">
+							<p class = "lead py-3">For most guests, flying or driving the morning of Saturday Sept 3rd and back on Monday Sept 5th (Labor Day) will work well.</p>
+
+							<p><strong>If you are flying, you have two main options:</strong></p>
+							<ol>
+								<li>
+									You can fly into Burlington International Airport (BTV) and rent a car for the roughly 1-hour drive to Mad River Barn.
+								</li>
+								<li>
+									You can fly into Boston Logan International Airport (BOS) and rent a car for a roughly 3-hour drive.
+								</li>
+							</ol>
+
+							<p>
+								<strong>Driving?</strong>
+							</p>
+							<p>Mad River Barn is located at <a target = "_blank" href = "https://goo.gl/maps/fkNxxDfbHizpTna89">2849 Mill Brook Rd., Waitsfield, VT 05673</a></p>
+							<!-- 
+								<iframe width="600px" height="450" style="border:0;" allowfullscreen="" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d182712.91546617562!2d-73.09548260562961!3d44.312226132071714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x4cca798ea89a943b%3A0xfe2b2367b561d512!2sBurlington%20International%20Airport%20(BTV)%2C%20Airport%20Drive%2C%20South%20Burlington%2C%20VT!3m2!1d44.4706939!2d-73.1516037!4m5!1s0x4cb573cc21116945%3A0xbc58d88aa902d1d9!2sMad%20River%20Barn%2C%20Mill%20Brook%20Road%2C%20Waitsfield%2C%20VT!3m2!1d44.1955868!2d-72.8913342!5e0!3m2!1sen!2sus!4v1628196155549!5m2!1sen!2sus"></iframe>						
+							-->
+						</div>
+						<div class = "col-md-3">
+							<img src = "images/photos/backpack.png">
 						</div>
 					</div>
 				</div>
@@ -263,20 +292,35 @@
 
 
 			<a name = "activities"></a>
-			<div class = "container border-bottom" style="background-image: url('images/photos/boots.png');background-repeat: no-repeat;background-position: right bottom;">
+			<div class = "container border-bottom">
 				<div class="row text-center justify-content-center py-5">
-					<h1 class="display-5">Activities</h1>
-					<p class="lead py-3">Hiking, swimming, lawn games?<br> More infomation coming soon!</p>
-				</div>
+					<div class = "col-md-3">
+						<img src = "images/photos/boots.png">
+					</div>
+					<div class = "col-md-6">
+						<h1 class="display-5">Activities</h1>
+						<p class="lead py-3">Hiking, swimming, lawn games?<br> More infomation coming soon!</p>
+					</div>
+					<div class = "col-md-3">
+					</div>
+									</div>
 			</div>
 
 
 			<a name = "faq"></a>
-			<div class = "container border-bottom" style="background-image: url('images/photos/image10.png');background-repeat: no-repeat;background-position: left bottom;">
-				<div class="row text-center py-5" style = "height: 300px">
-					<h1 class="display-5">Frequently Asked Questions</h1>
-					<p class="lead py-3">Please <a href="mailto:jocebreton@gmail.com">email</a>, call, text, or send a pigeon to us if you have a question.<br> More coming soon!</p>
-					<div id="faqAccordion"></div>
+			<div class = "container border-bottom">
+				<div class="row text-center py-5">
+					<div class="col-md-3">
+					</div>
+					<div class="col-md-6">
+						<h1 class="display-5">Frequently Asked Questions</h1>
+						<p class="lead py-3">Please <a href="mailto:jocebreton@gmail.com">email</a>, call, text, or send a pigeon to us if you have a question.<br> More coming soon!</p>
+						<div id="faqAccordion"></div>
+					</div>
+					<div class="col-md-3">
+						<img src = "images/photos/image10.png">
+					</div>
+					
 				</div>
 			</div>
 
