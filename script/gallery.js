@@ -38,6 +38,26 @@ var imageList = [
     {
         "thumb": "IMG_0998_Thumb.jpg",
         "full": "IMG_0998.jpg"
+    },
+    {
+        "thumb": "10032021-JocelynKris-JuliaLuckettPhotography-9_thumb.jpg",
+        "full": "10032021-JocelynKris-JuliaLuckettPhotography-9.jpg"
+    },
+    {
+        "thumb": "10032021-JocelynKris-JuliaLuckettPhotography-27_thumb.jpg",
+        "full": "10032021-JocelynKris-JuliaLuckettPhotography-27.jpg"
+    },
+    {
+        "thumb": "10032021-JocelynKris-JuliaLuckettPhotography-42_thumb.jpg",
+        "full": "10032021-JocelynKris-JuliaLuckettPhotography-42.jpg"
+    },
+    {
+        "thumb": "10032021-JocelynKris-JuliaLuckettPhotography-45_thumb.jpg",
+        "full": "10032021-JocelynKris-JuliaLuckettPhotography-45.jpg"
+    },
+    {
+        "thumb": "10032021-JocelynKris-JuliaLuckettPhotography-50_thumb.jpg",
+        "full": "10032021-JocelynKris-JuliaLuckettPhotography-50.jpg"
     }
     
 ]

@@ -1,7 +1,7 @@
 // adding circle markers
 
 
-var mymap = L.map('mapid').setView([44.16235545311861, -72.85046914555758], 11);
+var mymap = L.map('mapid').setView([44.16235545311861, -72.85046914555758], 12);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
     maxZoom: 18,
@@ -32,17 +32,6 @@ locations = [{
     "geometry": {
         "type": "Point",
         "coordinates": [-72.8875710864438, 44.17784564748142]
-    } 
-}, {
-    "type": "Feature",
-    "properties": {
-        "locationID": "westhill",
-        "name": "West Hill House",
-        "color": "#002060"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-72.88253902877439, 44.124543909888786]
     } 
 }, {
     "type": "Feature",
@@ -87,17 +76,6 @@ locations = [{
     "geometry": {
         "type": "Point",
         "coordinates": [-72.8347148594568, 44.17616510002419]
-    } 
-}, {
-    "type": "Feature",
-    "properties": {
-        "locationID": "warren",
-        "name": "The Warren Lodge",
-        "color": "#002060"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-72.84534074411596, 44.1380084744059]
     } 
 }, {
     "type": "Feature",
