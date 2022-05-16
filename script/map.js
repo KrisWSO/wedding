@@ -26,7 +26,7 @@ locations = [{
     "type": "Feature",
     "properties": {
         "locationID": "whitehorse",
-        "name": "The White Horse Inn",
+        "name": "The White Horse Lodge",
         "color": "#0090c9"
     },
     "geometry": {
