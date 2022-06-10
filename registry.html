@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Jocelyn & Kris</title>
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link href="./style/style.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<!-- Leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- lightbox gallery -->
+	<link rel="stylesheet" type="text/css" href = "style/lightbox.css">
+	<script src="script/lightbox.js"></script>
+
+	</head>
+	
+	<body>
+		<a name = "home"></a>
+		<div 
+			id = "splash"
+			class = "bg-image d-flex justify-content-center align-items-end text-center text-white" 
+			style = "
+				background-image: url('./images/photos/MVIMG_20190827_193156.jpg'); 
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+				height: 600px;
+				"
+		>
+
+
+			<div style = "background-color: black; opacity: 70%; padding: 5px 15px 5px 15px; border-radius: 10px; position:relative;right:300px;bottom:200px">
+				<h1 class="display-3" style = "opacity: 100%; color:white">Jocelyn & Kris</h1>
+				<p class="lead" style="color:white">September 4th, 2022<br>Mad River Barn, Waitsfield VT</p>
+			</div>
+
+
+		</div>
+
+			<div class="container">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: white;">
+				<div class="container-fluid">
+					<ul class="nav justify-content-center">
+						<li><a href="index.html" class="nav-link link-dark">Home</a></li>
+						<li><a href="index.html#schedule" class="nav-link link-dark">Schedule</a></li>
+						<li><a href="index.html#accomodations" class="nav-link link-dark ">Accomodations</a></li>
+						<li><a href="index.html#travel" class="nav-link link-dark ">Travel</a></li>
+						<li><a href="index.html#activities" class="nav-link link-dark">Activities</a></li>
+						<li><a href="index.html#faq" class="nav-link link-dark">FAQ</a></li>
+						<li><a href="index.html#us" class="nav-link link-dark">Us!</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 text-end px-5">
+					<a href = "index.html">
+						<button type="button" class="btn btn-primary">
+							Go Home!
+						</button>
+					</a>
+				</div>
+			</nav>
+
+			<a name = "schedule"></a>
+			<div class = "container border-bottom">
+				<div class="row text-center py-5">
+					<h1 class="display-5" name = "schedule">Registry</h1>
+					<p class = "lead"> We've set up four options for wedding gifts.<br>The best gift we could hope for though, is having you at the wedding!</p>
+					<div class="row py-5">
+						<div class = "col-md-6">
+							<h5>Honeymoon Memories</h5>
+							<a href = "https://paypal.me/JBreton2012"> <!--Jocelyn's paypal-->
+								<img src="./images/OIP.png" width = "500">
+							</a>
+						</div>
+						<div class = "col-md-5 py-3">
+							We'll be in New Zealand for our honeymoon this winter! Here are a few specific activities you could contribute towards if you'd like to give us a specific memory:<br><br>
+							<ol style = "text-align: left;">
+								<li>One more day in our camper van!</li>
+								<li>Help us get a fly-fishing guide!</li>
+								<li>Wine tasting!</li>
+								<li>A fancy dinner!</li>
+								<li>Spelunking!</li>
+								<li>Let us know if your gift is for another specific purpose!</li>
+							</ol><br>
+							<a href = "https://paypal.me/JBreton2012"><button class = "btn-primary">Go to New Zealand Paypal</button></a> <br><br>
+							We felt Paypal would be most secure!
+						</div>
+						<hr>
+					</div>
+					<div class="row">
+						<div class = "col-md-6">
+							<h5>Amazon</h5>
+							<a href = "https://www.amazon.com/wedding/kris-williams-jocelyn-breton-waitsfield-september-2022/registry/1CKSV4MCAK1OB"> <!--Amazon link-->
+								<img src="./images/amazon.png" width = "250">
+							</a>
+						</div>
+						<div class = "col-md-5 py-3">
+							Our Amazon registry is where you will find all the kitchen gadgets and other things we're pining after.<br><br>
+							<a href = "https://www.amazon.com/wedding/kris-williams-jocelyn-breton-waitsfield-september-2022/registry/1CKSV4MCAK1OB"><button class = "btn-primary">Go to Amazon Registry</button></a>
+						</div>
+						<hr>
+					</div>
+					<div class="row">
+						<div class = "col-md-6">
+							<h5>Recreational Equipment, Inc.</h5>
+							<a href = "https://www.myregistry.com/REI/wedding-registry/jocelyn-breton-and-kristoffer-williams-bronx-ny/3344549"> <!--REI link-->
+								<img src="./images/3123_sq_1.jpg" width = "250">
+							</a>
+						</div>
+						<div class = "col-md-5 py-3">
+							<br><br>
+							We've added our outdoor gear wishes to an REI registry. <br><strong>Password: breton-williams</strong><br><br>
+							<a href = "https://www.myregistry.com/REI/wedding-registry/jocelyn-breton-and-kristoffer-williams-bronx-ny/3344549"><button class = "btn-primary">Go to REI Registry</button></a>
+						</div>
+						<hr>
+					</div>
+					<div class="row">
+						<div class = "col-md-6">
+							<h5>Nathaniel B. Field Memorial Foundation</h5>
+							<a href = "https://www.paypal.com/donate?token=VN9gfDimUDk3YxkljFXoBTYDCrTJwh3KVlUZeawmXCJn3f5sn3-TaX6B-u19lg7lA4HQXuv7x544rxXt"> <!--Nathan's fund page-->
+								<img src="images/nathan.PNG">
+							</a>
+						</div>
+						<div class = "col-md-5 py-3">
+							If it'd be meaningful for you, we'd love for our guests to contribute to Nathan's memorial fund. Proceeds are used for suicide prevention.<br><br>
+							<a href = "https://www.paypal.com/donate?token=VN9gfDimUDk3YxkljFXoBTYDCrTJwh3KVlUZeawmXCJn3f5sn3-TaX6B-u19lg7lA4HQXuv7x544rxXt"><button class = "btn-primary">Go to Foundation Fund</button></a> <br><br>
+							If there's another fund or charity that's meaningful to you, please make your gift to them!
+						</div>
+						<hr>
+					</div>
+				</div>
+			</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+		<!-- Gallery Builder Script-->
+		<script src="script/gallery.js"></script>
+		<!-- Map Script -->
+		<script src = "script/map.js"></script>
+
+	</body>
+</html>
