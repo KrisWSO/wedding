@@ -58,7 +58,28 @@ var imageList = [
     {
         "thumb": "10032021-JocelynKris-JuliaLuckettPhotography-50_thumb.jpg",
         "full": "10032021-JocelynKris-JuliaLuckettPhotography-50.jpg"
+    },
+    {
+        "thumb": "IMG_4426_thumb.jpg",
+        "full": "IMG_4426.JPG"
+    },
+    {
+        "thumb": "IMG_5311_thumb.jpg",
+        "full": "IMG_5311_thumb.JPG"
+    },
+    {
+        "thumb": "IMG_5921_thumb.jpg",
+        "full": "IMG_5921.JPG"
+    },
+    {
+        "thumb": "IMG_6004_07252010_thumb.jpg",
+        "full": "IMG_6004_07252010.JPG"
+    },
+    {
+        "thumb": "sunset-with-kris_thumb.jpg",
+        "full": "sunset-with-kris.jpg"
     }
+
     
 ]
 
