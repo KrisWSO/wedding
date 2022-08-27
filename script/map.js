@@ -36,17 +36,6 @@ locations = [{
 }, {
     "type": "Feature",
     "properties": {
-        "locationID": "swanson",
-        "name": "The Swanson Inn",
-        "color": "#002060"
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-72.85305574407758, 44.18320131221074]
-    } 
-}, {
-    "type": "Feature",
-    "properties": {
         "locationID": "hydeaway",
         "name": "The Hyde Away Inn",
         "color": "#002060"
