@@ -42,7 +42,7 @@ locations = [{
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [-72.8073763441148, 44.17769302617483]
+        "coordinates": [-72.85305574407758, 44.18320131221074]
     } 
 }, {
     "type": "Feature",
